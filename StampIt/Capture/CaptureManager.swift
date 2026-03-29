@@ -46,10 +46,11 @@ class CaptureManager: ObservableObject {
         let captureRect = rect
         tearDown()
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { [weak self] in
-            guard let rawImage = ScreenCapture.captureRect(captureRect) else { return }
+        Task { @MainActor in
+            try? await Task.sleep(for: .milliseconds(100))
+            guard let rawImage = await ScreenCapture.captureRect(captureRect) else { return }
             guard let stampedImage = StampBorderRenderer.applyStampBorder(to: rawImage) else { return }
-            self?.onStampCaptured?(stampedImage)
+            self.onStampCaptured?(stampedImage)
         }
     }
 
