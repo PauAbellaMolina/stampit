@@ -18,7 +18,7 @@ Press `⌘⇧2`. A stamper appears on screen. Move it over what you want. Click.
 
 ## Install
 
-Open `StampIt.xcodeproj` in Xcode. Build and run.
+Coming soon on the Mac App Store.
 
 ---
 
