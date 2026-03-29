@@ -6,16 +6,6 @@ A tiny native macOS app (Swift + AppKit) that lives in your menu bar. Capture an
 
 Press `⌘⇧2`. A stamper appears on screen. Move it over what you want. Click. A transparent PNG with perforated stamp edges lands on your clipboard.
 
-## Features
-
-- **Menu bar app** · always there, never in the way
-- **Global hotkey** · `⌘⇧2` from anywhere
-- **Custom stamper overlay** · drag it around, pinch to resize
-- **Stamp border mask** · your captures get cut with perforated stamp edges
-- **Transparent PNG output** · paste stamps over anything
-- **Stamp history** · starred stamps persist, unstarred expire after 10 days
-- **Press animation** · because details matter
-
 ## Install
 
 Coming soon on the Mac App Store.
