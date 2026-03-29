@@ -1,5 +1,7 @@
 # StampIt
 
+![StampIt](thumbnail.png)
+
 A tiny native macOS app (Swift + AppKit) that lives in your menu bar. Capture any piece of your screen as a stamp. Perforated edges, transparent background, ready to paste anywhere.
 
 ## How it works
