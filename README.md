@@ -8,5 +8,5 @@ Press `⌘⇧2`. A stamper appears on screen. Move it over what you want. Click.
 
 ## Install
 
-Coming soon on the Mac App Store.
+Coming soon to the Mac App Store.
 
