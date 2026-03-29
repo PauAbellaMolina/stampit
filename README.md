@@ -4,7 +4,7 @@ A tiny native macOS app (Swift + AppKit) that lives in your menu bar. Capture an
 
 ## How it works
 
-Press `⌘⇧2`. A stamper appears on screen. Move it over what you want. Click. A transparent PNG with perforated stamp edges lands on your clipboard.
+Press `⌘⇧2`. A stamper appears on screen. Move it over what you want. Click. A transparent PNG with perforated stamp edges gets copied to the clipboard.
 
 ## Install
 
