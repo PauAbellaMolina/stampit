@@ -20,6 +20,3 @@ Press `⌘⇧2`. A stamper appears on screen. Move it over what you want. Click.
 
 Coming soon on the Mac App Store.
 
----
-
-Built with care by [@pauabella](https://github.com/PauAbellaMolina)
