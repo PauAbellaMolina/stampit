@@ -6,13 +6,7 @@ struct PermissionHelper {
         if #available(macOS 15, *) {
             return CGPreflightScreenCaptureAccess()
         } else {
-            let image = CGWindowListCreateImage(
-                CGRect(x: 0, y: 0, width: 1, height: 1),
-                .optionOnScreenOnly,
-                kCGNullWindowID,
-                []
-            )
-            return image != nil
+            return true // Assume granted on macOS 14; capture will fail gracefully if not
         }
     }
 

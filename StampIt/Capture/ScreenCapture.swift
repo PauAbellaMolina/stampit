@@ -8,7 +8,6 @@ struct ScreenCapture {
         guard let screen = NSScreen.main else { return nil }
         let screenHeight = screen.frame.height
 
-        // Flip Y from AppKit (bottom-left origin) to Quartz (top-left origin)
         let quartzRect = CGRect(
             x: rect.origin.x,
             y: screenHeight - rect.origin.y - rect.height,
